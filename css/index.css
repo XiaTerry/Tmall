@@ -1,0 +1,46 @@
+
+#header{
+    height: 32px;
+    background: #ff0036;
+    font-size: 12px;
+    line-height: 32px;
+}
+#header a,#login-info span {
+    color: #fff;
+}
+#login-info{
+    float: left;
+}
+#quick-menu{
+    float: right;
+}
+#quick-menu .menu{
+    float: left;
+    position: relative;
+}
+#header a{
+    margin: 0 14px;
+}
+#header a:hover{
+    color: #ffff00;
+}
+/*#quick-menu ul li ul{*/
+    /*display: none;*/
+/*}*/
+/*#quick-menu li:hover ul{*/
+    /*display: block;*/
+/*}*/
+/*#quick-menu .menu .menu1>li{*/
+    /*font-size: 10px;*/
+    /*margin: 0 2px;*/
+/*}*/
+#header .triangle{
+    border-width: 3px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #666;
+    border-left-color: transparent;
+    width: 0;
+    /*position: absolute;*/
+}
