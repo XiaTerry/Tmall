@@ -1,12 +1,12 @@
 
 #header{
     height: 32px;
-    background: #ff0036;
+    background: #f2f2f2;
     font-size: 12px;
     line-height: 32px;
 }
 #header a,#login-info span {
-    color: #fff;
+    color: #999;
 }
 #login-info{
     float: left;
@@ -17,30 +17,42 @@
 #quick-menu .menu{
     float: left;
     position: relative;
+    padding: 0 2px;
 }
 #header a{
     margin: 0 14px;
 }
 #header a:hover{
-    color: #ffff00;
+    color: #FF0036;
 }
-/*#quick-menu ul li ul{*/
-    /*display: none;*/
-/*}*/
-/*#quick-menu li:hover ul{*/
-    /*display: block;*/
-/*}*/
-/*#quick-menu .menu .menu1>li{*/
-    /*font-size: 10px;*/
-    /*margin: 0 2px;*/
-/*}*/
-#header .triangle{
-    border-width: 3px;
+#quick-menu ul li ul{
+    display: none;
+}
+#quick-menu li:hover ul{
+    display: block;
+}
+#quick-menu .menu .menu1>li{
+    font-size: 10px;
+    margin: 0 2px;
+}
+
+#header .triangle::after{
+    content: '';
+    border: 3px;
     border-style: solid;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: #666;
+    border-top-color: #bbb;
+    border-right-color:transparent;
+    border-bottom-color: transparent;
     border-left-color: transparent;
     width: 0;
-    /*position: absolute;*/
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    margin-top: -2px;
+}
+#header .icon-gouwuchekong,#header .icon-shouji,#header .icon-daohang{
+    font-size: 12px;
+    color: #ff0000;
+    position: absolute;
+    margin-left: 2px;
 }
