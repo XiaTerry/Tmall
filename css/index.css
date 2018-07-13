@@ -1,4 +1,7 @@
-
+#header .icon-gouwuchekong,#header .icon-shouji,#header .icon-daohang{
+    font-size: 12px;
+    color: #ff0000;
+}
 #header{
     height: 32px;
     background: #f2f2f2;
@@ -11,29 +14,23 @@
 #login-info{
     float: left;
 }
+#login-info .sn-login{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+#login-info .sn-register{
+    padding: 0 10px;
+}
 #quick-menu{
     float: right;
 }
 #quick-menu .menu{
     float: left;
     position: relative;
-    padding: 0 2px;
-}
-#header a{
-    margin: 0 14px;
+    padding: 0 14px;
 }
 #header a:hover{
     color: #FF0036;
-}
-#quick-menu ul li ul{
-    display: none;
-}
-#quick-menu li:hover ul{
-    display: block;
-}
-#quick-menu .menu .menu1>li{
-    font-size: 10px;
-    margin: 0 2px;
 }
 
 #header .triangle::after{
@@ -49,10 +46,186 @@
     right: 4px;
     top: 50%;
     margin-top: -2px;
+    transition: none;
+    transform-origin: 3px 1.5px;
 }
-#header .icon-gouwuchekong,#header .icon-shouji,#header .icon-daohang{
-    font-size: 12px;
-    color: #ff0000;
+#quick-menu .triangle{
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: transparent;
+    position: relative;
+}
+#quick-menu .separator{
+    width: 1px;
+    height: 14px;
+    background-color: #ccc;
+    padding: 0;
+    margin: 9px 5px;
+}
+#header .triangle:hover{
+    background-color: #fff;
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    cursor: pointer;
+}
+#header .triangle:hover > a{
+    text-decoration: underline;
+    color: #ff0036;
+}
+#header .triangle:hover::after{
+    transform: rotate(180deg);
+    transform-origin: 3px 1.5px;
+    transition: transform 0.4s linear;
+}
+#header .triangle .submenu{
+    top: 32px;
+    width: 86px;
+    display: none;
     position: absolute;
-    margin-left: 2px;
+    background-color: #fff;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    left: -1px;
+    padding: 0 14px;
 }
+
+#header .triangle:hover .submenu{
+    display: block;
+}
+
+#header .submenu a:hover{
+    text-decoration: underline;
+}
+#header .qr-code{
+    width: 175px;
+    height: 227px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 5px #aaaaaa;
+    -moz-box-shadow: 0 0 5px #aaaaaa;
+    box-shadow: 0 0 5px #aaaaaa;
+    top: 25px;
+    left: -58px;
+    display: none;
+}
+#header .qr-code::after{
+    content: '';
+    border-style: solid;
+    border-width: 5px;
+    border-color: transparent transparent #ffffff transparent;
+    width: 0;
+    top: -10px;
+    position: absolute;
+    left: 98px;
+}
+#header .mobile-link:hover .qr-code{
+    display: block;
+}
+#header .triangle .merchant {
+    width: 122px;
+    float: left;
+    left: -75px;
+    font-size: 8px;
+    color: #666;
+    /*margin-right: 20px;*/
+    line-height: 23px;
+}
+#header .triangle .merchant h3{
+    font-size: 100%;
+    font-weight: 700;
+}
+#header .triangle .merchant > li:nth-child(1){
+    float: left;
+    margin-right: 20px ;
+    border-bottom: 1px dashed #000;
+}
+#header .triangle .merchant > li:nth-child(2){
+    float: left;
+    margin-right: 20px ;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 10px;
+}
+#header .triangle .merchant a{
+    margin: 2px;
+}
+#header .menu-web{
+    width: 1198px;
+    border-width: 0 1px 1px 1px;
+    border-color: #e5e5e5;
+    position: absolute;
+    border-style: solid;
+    top: 33px;
+    left: -1107.5px;
+    height: 110px;
+    padding-top:25px;
+    padding-bottom: 25px;
+    display: none;
+}
+#header .menu-web a:link{
+    color: #666666;
+}
+#header .site-cont {
+    height: 110px;
+    padding-left:25px;
+    /*position: relative;*/
+}
+#header .site-cont h2{
+    color: #f56a00;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+#header .site-cont span{
+    padding-left: 6px;
+}
+#header .site-cont li{
+    float: left;
+}
+#header .site-hot{
+    float: left;
+    width: 455px;
+}
+#header .site-hot a:hover{
+    color: #f56a00;
+}
+#header .site-market a:hover{
+    color: #2263d4;
+}
+#header .site-help a:hover{
+    color: #666666;
+}
+#header .site-market h2{
+    color: #2263d4;
+}
+#header .site-market{
+    float: left;
+    width: 455px;
+    border-right: 1px solid #f5f5f5;
+    border-left: 1px solid #f5f5f5;
+}
+#header .site-help{
+    width: 180px;
+    float: right;
+    padding-right: 20px;
+    /*margin-left: 10px;*/
+}
+#header .site-help h2{
+    color: #666;
+}
+#header .site-list li{
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 90px;
+    height: 13px;
+    line-height: 1.4;
+}
+#header .site-list a:hover{
+    text-decoration: underline;
+}
+#header .triangle:hover .menu-web{
+    display: block;
+}
+
