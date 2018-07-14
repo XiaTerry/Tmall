@@ -1,3 +1,4 @@
+/*header的开始*/
 #header .icon-gouwuchekong,#header .icon-shouji,#header .icon-daohang{
     font-size: 12px;
     color: #ff0000;
@@ -7,6 +8,7 @@
     background: #f2f2f2;
     font-size: 12px;
     line-height: 32px;
+    border-bottom: 1px solid #aaa;
 }
 #header a,#login-info span {
     color: #999;
@@ -103,13 +105,14 @@
     height: 227px;
     border: 1px solid #ffffff;
     position: absolute;
-    background: #ffffff;
+    background-color: #ffffff;
     -webkit-box-shadow: 0 0 5px #aaaaaa;
     -moz-box-shadow: 0 0 5px #aaaaaa;
     box-shadow: 0 0 5px #aaaaaa;
     top: 25px;
     left: -58px;
     display: none;
+    z-index: 999;
 }
 #header .qr-code::after{
     content: '';
@@ -132,6 +135,7 @@
     color: #666;
     /*margin-right: 20px;*/
     line-height: 23px;
+    z-index: 999;
 }
 #header .triangle .merchant h3{
     font-size: 100%;
@@ -163,6 +167,8 @@
     padding-top:25px;
     padding-bottom: 25px;
     display: none;
+    background-color: #ffffff;
+    z-index: 999;
 }
 #header .menu-web a:link{
     color: #666666;
@@ -228,4 +234,322 @@
 #header .triangle:hover .menu-web{
     display: block;
 }
+/*header的结束*/
 
+/*logo-search的开始*/
+#logo-search{
+    height: 130px;
+    /*background: #ff0036;*/
+}
+
+#logo img{
+    width: 240px;
+    height: 130px;
+    /*margin: 0 25px;*/
+}
+#logo,#search{
+    float: left;
+}
+#search{
+    width: 627px;
+    height: 68px;
+    margin-top: 38px;
+    padding-left: 25px;
+    /*margin-left: 25px;*/
+}
+#search .search-box{
+    width: 491px;
+    height: 32px;
+    float: left;
+    text-indent: 5px;
+    font-size: 14px;
+}
+#search .search-bnt{
+    width: 132px;
+    height: 36px;
+    background: #ff0036;
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#search input,button{
+    border: 2px solid #ff0036;
+    outline: none;
+}
+#search .hot-query{
+    width: 625px;
+    height: 24px;
+}
+#search .hot-query li{
+    float: left;
+    margin-top: 5px;
+}
+#search .hot-query a{
+    padding: 0 10px;
+}
+#search .hot-query li:nth-child(1) > a{
+    padding-left: 0;
+}
+#search .hot-query li:nth-child(2) > a{
+    color: #ff0036;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+#search .hot-query li:nth-child(2) > a{
+    color: #ff0036;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+#search .hot-query li:nth-child(4) > a{
+    color: #ff0036;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+#search .hot-query li:nth-child(6) > a{
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+#search .hot-query li:nth-child(7) > a{
+    color: #ff0036;
+}
+#search .hot-query li:nth-child(8) > a{
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+#search .hot-query li:nth-child(9) > a{
+    color: #ff0036;
+}
+#search .hot-query a{
+    color: #999999;
+    font-size: 14px;
+    /*margin-right: 25px;*/
+}
+/*logo-search的结束*/
+
+/*content的开始*/
+#content .wrapper{
+    height: 35px;
+    position: relative;
+}
+#content .main-nav img{
+    height: 30px;
+}
+#content .main-nav{
+    margin-left: 200px;
+}
+#content .main-nav li{
+    float: left;
+    font-size: 16px;
+    line-height: 36px;
+    margin-right: 15px;
+}
+#content .main-nav a{
+    color: #333333;
+    font-size: 16px;
+}
+#content .main-nav li a:hover{
+    color: #ff0036;
+}
+
+/*content的结束*/
+
+/*banner的开始*/
+#banner{
+    background-color: #e8e8e8;
+    border-top: 2px solid #ff0036;
+}
+#banner .wrapper{
+    height: 510px;
+    background-image: url("../imgs/banner1.jpg");
+}
+#banner .banner-product{
+    height: 548px;
+    width: 200px;
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 20px;
+    background-color: rgba(0,0,0,.55);
+    font-size: 14px;
+}
+#banner .banner-product li{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    color: #ffffff;
+}
+#banner .banner-product li a{
+    color: #ffffff;
+}
+#banner .banner-product li:hover{
+    background-color: #ffffff;
+}
+#banner .banner-product li:nth-child(1){
+    height: 36px;
+}
+#banner .banner-product li:nth-child(1):hover{
+    background-color: #ff0036;
+}
+#banner .banner-product li:nth-child(1):hover > i{
+    color: #ffffff;
+}
+#banner .banner-product li:nth-child(2):hover > a{
+    color: #e54077;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(2):hover > i{
+    color: #e54077;
+}
+#banner .banner-product li:nth-child(3):hover > a{
+    color: #427def;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(3):hover > i{
+    color: #427def;
+}
+#banner .banner-product li:nth-child(4):hover > a{
+    color: #6347ed;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(4):hover > i{
+    color: #6347ed;
+}
+#banner .banner-product li:nth-child(5):hover > a{
+    color: #e54077;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(5):hover > i{
+    color: #e54077;
+}
+#banner .banner-product li:nth-child(6):hover > a{
+    color: #6347ed;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(6):hover > i{
+    color: #6347ed;
+}
+#banner .banner-product li:nth-child(7):hover > a{
+    color: #427def;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(7):hover > i{
+    color: #427def;
+}
+#banner .banner-product li:nth-child(8):hover > a{
+    color: #fa5c5c ;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(8):hover > i{
+    color: #fa5c5c ;
+}
+#banner .banner-product li:nth-child(9):hover > a{
+    color: #f7a831;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(9):hover > i{
+    color: #f7a831;
+}
+#banner .banner-product li:nth-child(10):hover > a{
+    color: #f7a831;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(10):hover > i{
+    color: #f7a831;
+}
+#banner .banner-product li:nth-child(11):hover > a{
+    color: #427def ;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(11):hover > i{
+    color: #427def ;
+}
+#banner .banner-product li:nth-child(12):hover > a{
+    color: #dd2727;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(12):hover > i{
+    color: #dd2727;
+}
+#banner .banner-product li:nth-child(13):hover > a{
+    color: #427def;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(13):hover > i{
+    color: #427def;
+}
+#banner .banner-product li:nth-child(14):hover > a{
+    color: #f7a831;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(14):hover > i{
+    color: #f7a831;
+}
+#banner .banner-product li:nth-child(15):hover > a{
+    color: #3bc7b0;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(15):hover > i{
+    color: #3bc7b0;
+}
+#banner .banner-product li:nth-child(16):hover > a{
+    color: #dd2727;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(16):hover > i{
+    color: #dd2727;
+}
+#banner .banner-product li:nth-child(17):hover > a{
+    color: #3bc7b0 ;
+    font-weight: bold;
+}
+#banner .banner-product li:nth-child(17):hover > i{
+    color: #3bc7b0 ;
+}
+#banner .product-type{
+    background-color: #ff0036;
+    font-weight: bold;
+    font-size: 16px;
+    height: 32px;
+    clear: both;
+}
+#banner .product-tp{
+    position: relative;
+}
+#banner .hot-word-line{
+    height: 510px;
+    width: 852px;
+    background: red;
+    margin-left: 190px;
+    margin-top: -32px;
+    float: left;
+    position: absolute;
+    /*display: none;*/
+}
+#banner .banner-product > li:hover .hot-word-line{
+    display: block;
+}
+#banner .line-title{
+    width: 200px;
+    height: 510px;
+    background: #333333;
+    float: left;
+}
+#banner .title-text{
+    text-align: center;
+    margin-top: 30px;
+}
+#banner .line-con{
+    width: 452px;
+    height: 510px;
+    background: #000000;
+    float: left;
+
+}
+#banner .line-con > a{
+    color: red;
+    margin-top: 30px;
+    line-height: 30px;
+}
+/*banner的结束*/
