@@ -362,7 +362,7 @@
     border-top: 2px solid #ff0036;
 }
 #banner .wrapper{
-    height: 510px;
+    height: 512px;
     background-image: url("../imgs/banner1.jpg");
 }
 #banner .banner-product{
@@ -386,125 +386,125 @@
 #banner .banner-product li:hover{
     background-color: #ffffff;
 }
-#banner .banner-product li:nth-child(1){
+#banner .banner-product > li:nth-child(1){
     height: 36px;
 }
-#banner .banner-product li:nth-child(1):hover{
+#banner .banner-product > li:nth-child(1):hover{
     background-color: #ff0036;
 }
-#banner .banner-product li:nth-child(1):hover > i{
+#banner .banner-product > li:nth-child(1):hover > i{
     color: #ffffff;
 }
-#banner .banner-product li:nth-child(2):hover > a{
+#banner .banner-product > li:nth-child(2):hover > a{
     color: #e54077;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(2):hover > i{
+#banner .banner-product > li:nth-child(2):hover > i{
     color: #e54077;
 }
-#banner .banner-product li:nth-child(3):hover > a{
+#banner .banner-product > li:nth-child(3):hover > a{
     color: #427def;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(3):hover > i{
+#banner .banner-product > li:nth-child(3):hover > i{
     color: #427def;
 }
-#banner .banner-product li:nth-child(4):hover > a{
+#banner .banner-product > li:nth-child(4):hover > a{
     color: #6347ed;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(4):hover > i{
+#banner .banner-product > li:nth-child(4):hover > i{
     color: #6347ed;
 }
-#banner .banner-product li:nth-child(5):hover > a{
+#banner .banner-product > li:nth-child(5):hover > a{
     color: #e54077;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(5):hover > i{
+#banner .banner-product > li:nth-child(5):hover > i{
     color: #e54077;
 }
-#banner .banner-product li:nth-child(6):hover > a{
+#banner .banner-product > li:nth-child(6):hover > a{
     color: #6347ed;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(6):hover > i{
+#banner .banner-product > li:nth-child(6):hover > i{
     color: #6347ed;
 }
-#banner .banner-product li:nth-child(7):hover > a{
+#banner .banner-product > li:nth-child(7):hover > a{
     color: #427def;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(7):hover > i{
+#banner .banner-product > li:nth-child(7):hover > i{
     color: #427def;
 }
-#banner .banner-product li:nth-child(8):hover > a{
+#banner .banner-product > li:nth-child(8):hover > a{
     color: #fa5c5c ;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(8):hover > i{
+#banner .banner-product > li:nth-child(8):hover > i{
     color: #fa5c5c ;
 }
-#banner .banner-product li:nth-child(9):hover > a{
+#banner .banner-product > li:nth-child(9):hover > a{
     color: #f7a831;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(9):hover > i{
+#banner .banner-product > li:nth-child(9):hover > i{
     color: #f7a831;
 }
-#banner .banner-product li:nth-child(10):hover > a{
+#banner .banner-product > li:nth-child(10):hover > a{
     color: #f7a831;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(10):hover > i{
+#banner .banner-product > li:nth-child(10):hover > i{
     color: #f7a831;
 }
-#banner .banner-product li:nth-child(11):hover > a{
+#banner .banner-product > li:nth-child(11):hover > a{
     color: #427def ;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(11):hover > i{
+#banner .banner-product > li:nth-child(11):hover > i{
     color: #427def ;
 }
-#banner .banner-product li:nth-child(12):hover > a{
+#banner .banner-product > li:nth-child(12):hover > a{
     color: #dd2727;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(12):hover > i{
+#banner .banner-product > li:nth-child(12):hover > i{
     color: #dd2727;
 }
-#banner .banner-product li:nth-child(13):hover > a{
+#banner .banner-product > li:nth-child(13):hover > a{
     color: #427def;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(13):hover > i{
+#banner .banner-product > li:nth-child(13):hover > i{
     color: #427def;
 }
-#banner .banner-product li:nth-child(14):hover > a{
+#banner .banner-product > li:nth-child(14):hover > a{
     color: #f7a831;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(14):hover > i{
+#banner .banner-product > li:nth-child(14):hover > i{
     color: #f7a831;
 }
-#banner .banner-product li:nth-child(15):hover > a{
+#banner .banner-product > li:nth-child(15):hover > a{
     color: #3bc7b0;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(15):hover > i{
+#banner .banner-product > li:nth-child(15):hover > i{
     color: #3bc7b0;
 }
-#banner .banner-product li:nth-child(16):hover > a{
+#banner .banner-product > li:nth-child(16):hover > a{
     color: #dd2727;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(16):hover > i{
+#banner .banner-product > li:nth-child(16):hover > i{
     color: #dd2727;
 }
-#banner .banner-product li:nth-child(17):hover > a{
+#banner .banner-product > li:nth-child(17):hover > a{
     color: #3bc7b0 ;
     font-weight: bold;
 }
-#banner .banner-product li:nth-child(17):hover > i{
+#banner .banner-product > li:nth-child(17):hover > i{
     color: #3bc7b0 ;
 }
 #banner .product-type{
@@ -514,42 +514,53 @@
     height: 32px;
     clear: both;
 }
-#banner .product-tp{
-    position: relative;
-}
+/*#banner .product-tp{*/
+    /*position: relative;*/
+/*}*/
 #banner .hot-word-line{
     height: 510px;
-    width: 852px;
-    background: red;
+    width: 652px;
+    background: #ffffff;
     margin-left: 190px;
     margin-top: -32px;
     float: left;
     position: absolute;
-    /*display: none;*/
+    display: none;
 }
 #banner .banner-product > li:hover .hot-word-line{
     display: block;
 }
 #banner .line-title{
-    width: 200px;
+    width: 180px;
     height: 510px;
-    background: #333333;
+    /*background: #333333;*/
     float: left;
 }
 #banner .title-text{
-    text-align: center;
-    margin-top: 30px;
+    width: 180px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #333333;
+    font-weight: bold;
 }
 #banner .line-con{
     width: 452px;
-    height: 510px;
-    background: #000000;
+    height: 50px;
+    padding-top: 10px;
     float: left;
-
+    color: #333333;
+    display: block;
+    border-bottom: 1px dotted #999999;
 }
-#banner .line-con > a{
-    color: red;
-    margin-top: 30px;
-    line-height: 30px;
+#banner .line-con li{
+    float: left;
+    height: 23px;
+}
+#banner .line-con li a{
+    color: #333333;
+}
+#banner .line-con li a:hover{
+    color: #e54077;
 }
 /*banner的结束*/
